@@ -1,0 +1,49 @@
+:root{
+    --clr-cyan: hsl(179, 62%, 43%);
+    --clr-bright-yellow: hsl(71, 73%, 54%);
+    --clr-light-gray: hsl(204, 43%, 93%);
+    --clr-grayish-blue: hsl(218, 22%, 67%);
+}
+
+/* General styling */
+
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+    font-family: 'Karla', sans-serif;
+    background: var(--clr-light-gray);
+}
+.container{
+    box-shadow: 0px 0px 0px black;
+    width: 85%;
+    margin: 2rem auto;
+    border-radius: 20rem;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header */
+
+.header{
+    background: white;
+    text-align: left;
+    padding: 1rem 2rem 1.5rem 2rem;
+    border-radius: 10px 10px 0 0;
+}
+.header h1{
+    font-size: 2rem;
+    color: var(--clr-cyan);
+    margin-bottom: 2.5rem;
+}
+.header h2{
+    font-size: 1.6rem;
+    color: var(--clr-bright-yellow);
+    margin-bottom: 2.5rem;
+}
+.header p{
+    color: var(--clr-grayish-blue);
+    line-height: 2.5rem;
+    font-size: 1.4rem;
+}
